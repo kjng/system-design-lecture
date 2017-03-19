@@ -67,14 +67,14 @@ Link [here](system-design-process-quiz.md)
 - Don’t deep dive at this point and get some feedback from the interviewer if - this is the right direction
 - Justify your ideas from your notes about use cases/constraints
 - At this point, don’t decide on the specific technologies, just outline the - high-level components
-- Components:
-- Application service layer (serves the request)
-- Shortening service: generate hashes until one isn’t used the map them, if - given custom url, check that it hasn’t been used and create it
-- Redirection service: look up hash and send a redirect
-- Data storage layer (keeps track of the hash => url mappings)
-- Database to store new mappings and retrieve urls when given a hash
-- Hashing
-- Use bcrypt to hash the url then take the first 6 characters or so
+- **Components:**
+   - Application service layer (serves the request)
+   - Shortening service: generate hashes until one isn’t used the map them, if - given custom url, check that it hasn’t been used and create it
+   - Redirection service: look up hash and send a redirect
+   - Data storage layer (keeps track of the hash => url mappings)
+   - Database to store new mappings and retrieve urls when given a hash
+   - Hashing
+      - Use bcrypt to hash the url then take the first 6 characters or so
 
 #### Analyzing Bottlenecks
 - Your high-level design will have places of potential overload
