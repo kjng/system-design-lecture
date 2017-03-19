@@ -1,5 +1,4 @@
 Credits to: [hiredintech](https://www.hiredintech.com/classrooms/system-design/lesson/96)
-- [Answers](system-design-process-questions-answers.md)
 
 ------
 
