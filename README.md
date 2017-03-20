@@ -26,6 +26,8 @@ These notes were prepared for a lecture given at **Hack Reactor** on **System De
 
 ### Quiz
 
+Link [here](system-design-process-quiz.md)
+
 ### Example: Design a url shortening service, like bit.ly
 
 - How many users? With a few thousand users, this could amount to millions of URLs. Do you want statistics for each link (clicks, timestamp, etc...)?
