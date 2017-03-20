@@ -2,6 +2,12 @@
 
 These notes were prepared for a lecture given at **Hack Reactor** on **System Design**. It aims to provide outlines and guidelines for answering system and software architecture-based questions in a coding interview. Most of this information is based on [hiredintech's](https://www.hiredintech.com/classrooms/system-design/) System Design free online course.
 
+## TODOS:
+- Create diagrams/images of:
+   - Constraints and use cases (bitly?)
+   - Abstract design (bitly?)
+   - Scalability (bitly?)
+
 ## Challenges
 - How can I design x in y minutes?
 - The point of system design questions are to create a discussion of the problem at hand and the process in which you solve the problem.
