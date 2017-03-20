@@ -103,9 +103,16 @@ Link [here](system-design-process-quiz.md)
    - CPU
    - RAM
    - Constraints: a limit to how many cores/processor speeds/world hasn’t made a more powerful machine/your money
+   - **Example:** One web server your users connect to that handles all of your requests/responses and your database(s)
 - Horizontal scaling
-- Caching
+   + Since vertical scaling is expensive and has a limit, let's architect a system where we split up one machine into several
+   + We can then buy cheaper machines and achieve almost no limits in terms of expandability since we aren't limited by industry technology
+   + **Example:**
+      + We can buy a machine that has 4 processors in it with 64GB of RAM and hundreds of TB of disk space but buying more speed/storage may not even be possible.
+      + We can instead create a system design where we can buy several 1 processor machines with 4GB of RAM and 1TB disk space.
+   - There are, of course, tradeoffs. There will be increased latency the more machines you have but if your 1 machine system reaches peak capacity, horizontally scaling is definitely better.
 - Load balancing
+- Caching
 - Database replication
 - Database partitioning
 - Web hosts, VPS, Amazon EC2
