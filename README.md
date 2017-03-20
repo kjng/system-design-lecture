@@ -1,5 +1,7 @@
 # System Design Lecture Notes
 
+These notes were prepared for a lecture given at **Hack Reactor** on **System Design**. It aims to provide outlines and guidelines for answering system and software architecture-based questions in a coding interview. Most of this information is based on [hiredintech's](https://www.hiredintech.com/classrooms/system-design/) System Design free online course.
+
 ## Challenges
 - How can I design x in y minutes?
 - The point of system design questions are to create a discussion of the problem at hand and the process in which you solve the problem.
@@ -12,7 +14,8 @@
 ## System Design Process
 
 - Don't jump in immediately! Knowing the problem at hand is important
-Clarify what the system needs to satisfy. Ask your interviewer for a few minutes on the use cases, constraints, and scope of the system. This is similar to algorithm questions and OICE.
+
+- Clarify what the system needs to satisfy. Ask your interviewer for a few minutes on the use cases, constraints, and scope of the system. This is similar to algorithm questions and OICE.
 
 - The interviewer wants to eventually see if you can solve the problem, but before that, whether or not you can gather the requirements of the problem
 
